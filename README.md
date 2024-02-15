@@ -1,3 +1,7 @@
+# Fedimint Config UI for Umbrel
+
+Created from template with `npx create-remix@latest` and then I followed [the directions from here](https://chakra-ui.com/getting-started/remix-guide) to install chakra ui to match the fedimint style
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
