@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch via NPM",
+            "name": "dev",
             "request": "launch",
             "runtimeArgs": [
                 "run-script",
@@ -15,7 +15,13 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "node"
+            "type": "node",
+            "env": {
+                "API_PORT": "8174",
+                "P2P_PORT": "8173",
+                "APP_ID": "fedimint",
+                "DEVICE_DOMAIN_NAME": "umbrel.local"
+            }
         },
         {
             "type": "node",
